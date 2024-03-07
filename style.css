@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400&family=Lugrasimo&family=Neuton:wght@300&family=Pacifico&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400&family=Kaushan+Script&family=Lugrasimo&family=Merienda:wght@300&family=Neuton:wght@300&family=Pacifico&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400&family=Courgette&family=Kaushan+Script&family=Lugrasimo&family=Merienda:wght@300&family=Neuton:wght@300&family=Pacifico&family=Philosopher&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    background-color: rgb(18, 18, 124);;
+    width: 200px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    height: 100vh;
+}
+.scsidebar{
+    background-color: rgb(255, 230, 197);
+    width: 200px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+  padding:37px;  
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 20px;
+    padding:33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.scsidebar nav{
+    padding:37px;  
+}
+.scsidebar nav li{
+    list-style:none;
+    font-size: 20px;
+    padding:33px 0;   
+}
+.scsidebar nav li a{
+    text-decoration: none;
+    color:black;
+  
+}
+.main{
+    background-color: rgb(252, 64, 152);
+    width:90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color:white;
+    height: 81vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 62px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+} 
+.hello{
+    font-size: 50px;
+    font-family: 'Merienda', cursive;
+}
+.name{
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+.about{
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.moreAbout{
+    font-size: 23px;
+    font-family: 'Merienda', cursive;
+    margin-top: 30px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons button{
+    border-radius: 12px;
+    padding:10px;
+    color: antiquewhite;
+    background-color:rgb(174, 174, 174);
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 3px;
+
+} 
+.buttons button:hover{
+    background-color: antiquewhite;
+    color:rgb(174, 174, 174);
+}
+.devPic img{
+    height:350px;
+    margin-left: 150px;
+    display: flex;
+    margin-top: 70px;
+}
+.harshiIntro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.harshiIntro pre{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.introNames{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 20px;
+}
+.mains{
+    background-color: rgb(164, 245, 218);
+    width:90vw;
+}
+.containers{
+    display: flex;
+}
+.infoContainers{
+    background-color: rgb(153, 153, 245);
+    height: 72vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    height:58vh ;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.linkedin{
+    margin-top: 20px ;
+    margin-left:150px;
+    font-size:70px;
+} 
+.lettlinkedin{
+    font-size: 30px;
+    margin-left:350px ;
+    margin-top: -50px;
+}
+.lettlinkedin a{
+    color: black;
+}
+.insta{
+    margin-top: 20px ;
+    margin-left:150px;
+    font-size:70px;
+}
+.lettinsta{
+    font-size: 30px;
+    margin-left:350px ;
+    margin-top: -50px;
+}
+.lettinsta a{
+    color: black;
+}
+.mail{
+    margin-top: 20px ;
+    margin-left:150px;
+    font-size:70px;
+}
+.lettmail{
+    font-size: 30px;
+    margin-left:350px ;
+    margin-top: -50px;
+}
+.lettmail a{
+    color: black;
+}
+.phone{
+    margin-top: 35px ;
+    margin-left:150px;
+    font-size:60px; 
+}
+.lettphone{
+    font-size: 30px;
+    margin-left:-380px ;
+    margin-top: 280px;
+}
+.smain{
+    background-color: rgb(164, 245, 218);
+    width:90vw;
+}
+.scontainer{
+    display: flex;
+}
+.sinfoContainer{
+    background-color: rgb(153, 153, 245);
+    width: 80vw;
+    margin: 70px auto;
+    display: flex;
+    height:80vh ;
+}
+.skillsrequired{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}  
+.skillsrequired h1{
+    color:rgb(18, 18, 124);
+    margin-left: 250px;
+    font-family: 'Courgette', cursive;
+}    
+    
+
+.skillsrequired meter{
+    margin-top: 30px;
+    margin-left: 300px;
+    width:400px;
+    height: 35px;  
+}
+.skillsrequired label{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.skillsrequired p{
+    display: flex;
+    margin-top: -43px;
+    margin-left: 170px;
+    font-size: 20px;
+}
+.skillhtml img{
+    margin-top: 25px;
+    margin-left: 200px;
+    height: 60px;
+}
+.skillcss img{
+   margin-top: 25px;
+   margin-left: 200px; 
+    height: 60px;
+}
+.skilljs img{
+    margin-top: 25px;
+    margin-left: 200px;
+    height: 60px;
+}
+.skillc img{
+    margin-top: 25px;
+    margin-left: 200px;
+    height: 60px;
+}
+.skilljava img{
+    margin-top: 25px;
+    margin-left: 200px;
+    height: 60px;
+}
+.skillpython img{
+    margin-top: 25px;
+    margin-left: 200px;
+    height: 60px;
+}
+
